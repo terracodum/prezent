@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.content {
+    font-family: "Philosopher";
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: aliceblue;
+    background-color: #252525;
+}
+.content__title {
+    padding: 3rem;
+    font-size: 3rem;
+}
+.content__2title {
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.list {
+    width: 60%;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 3rem;
+}
+.list__elem {
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    background-color: #404040;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+.list__text {
+    padding-top: 1rem;
+    text-indent: 1rem;
+}
+.list__title {
+    font-size: 1.5rem;
+}
+.list__citaty {
+    padding: 1rem 1rem 1rem 3rem; 
+}
+.list__list {
+    padding-left: 2rem;
+    list-style-type: circle;
+}
