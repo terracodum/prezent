@@ -42,6 +42,7 @@
     padding: 1rem;
     font-size: 1.25rem;
 }
+
 .list__text {
     padding-top: 1rem;
     text-indent: 1rem;
@@ -57,9 +58,10 @@
     padding-left: 2rem;
     list-style-type: circle;
 }
+/*Mobile Changes*/
 @media (orientation: portrait) {
-    .content__title {
-        padding: 2rem;
+    .content__title { 
+        padding: 2rem; 
         font-size: 2rem;
     }
     .content__2title {
