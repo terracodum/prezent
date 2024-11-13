@@ -23,6 +23,12 @@
     padding-bottom: 1rem;
     font-size: 2rem;
 }
+#content__frame {
+    border: solid #404040 2px;
+    border-radius: 10px;
+    width:calc(600px * 1.5); 
+    height: calc(337px* 1.5);
+}
 .list {
     width: 60%;
     list-style-type: disc;
@@ -44,9 +50,30 @@
     font-size: 1.5rem;
 }
 .list__citaty {
+    font-style: italic;
     padding: 1rem 1rem 1rem 3rem; 
 }
 .list__list {
     padding-left: 2rem;
     list-style-type: circle;
+}
+@media (orientation: portrait) {
+    .content__title {
+        padding: 2rem;
+        font-size: 2rem;
+    }
+    .content__2title {
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    .list {
+        width: 80%;
+        list-style-type: disc;
+        list-style-position: inside;
+        padding: 2rem;
+    }
+    #content__frame {
+        height:calc(337px * 0.62);
+        width: calc(600px * 0.62);
+    }
 }
